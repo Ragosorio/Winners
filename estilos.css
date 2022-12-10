@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    background: #000;
+}
+.first-page{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.patito{
+    color: #fff;
+    font-size: 70px;
+}
+.code{
+    color: rgb(228, 217, 217);
+    background: #000;
+    border: 1px solid #ff00bf;
+    font-size: 50px;
+    text-align: center;
+}
+.btn{
+    margin-top: 70px;
+    border: none;
+    color: rgb(228, 217, 217);
+    background: #ff00bf;
+    width: 500px;
+    height: 35px;
+    font-size: 20px;
+}
+.btn:hover{
+    background: #ff00bfdf;
+    color: #6aff00;
+    border: 1px solid #6aff00;
+}
+
+.second-page{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.second-page a{
+    height: 40px;
+    width: 400px;
+}
+.title{
+    color: #ff00bf;
+    font-size: 100px;
+    margin: 0;
+}
+.cambio-color{
+    color: #ff00e1;
+}
+.second-page a button{
+    width: 100%;
+    height: 100%;
+    background: #ff00bf;
+    color: rgb(228, 217, 217);
+    border: none;
+    font-size: 20px;
+}
+.second-page a button:hover{
+    background: #ff00e1;
+}
+
+.margen-arriba-y-abajo{
+    margin: 20px 0;
+}

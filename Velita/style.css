@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+  color: #fff;
+  background: #000;
+}
+
+.contenedor{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.pa-decorar{
+  background: rgb(251, 240, 173);
+  padding: 100px 40px;
+  color: #000;
+}
+.doradito{
+  color: rgb(8, 0, 255);
+}
